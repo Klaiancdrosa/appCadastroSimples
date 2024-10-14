@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="80dp"
+        android:text="SISTEMA DE CADASTRO"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:textSize="25dp"
+        android:ems="12"
+        android:layout_marginLeft="24dp"
+        android:text="Esse é um pequeno software de cadastro de usuário.Escolha uma das opções a baixo:"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <Button
+        android:id="@+id/btcadastrar_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="16"
+        android:textSize="20dp"
+        android:layout_marginLeft="15dp"
+        android:text="Cadastrar Usuário"
+        android:layout_marginTop="350dp"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="304dp" />
+
+    <Button
+        android:id="@+id/bt_listar_usuarios_cadastrados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="Listar Usuários Cadastrados"
+        android:ems="16"
+        android:textSize="20dp"
+        android:layout_marginTop="430dp"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="437dp" />
+</RelativeLayout>
